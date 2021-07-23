@@ -1,9 +1,11 @@
 .sidebar_list{
     padding-top: 20px;
-    height: 89vh;
+    min-height: 89vh;
+    height: 100%;
     background-color: white;
     /* width: 230px; */
     float: left;
+    clear: both;
     /* overflow: hidden; */
     /* width: 100%; */
     z-index: 2;
@@ -52,7 +54,7 @@
 .arrow1.active{
     transform: rotate(270deg);
 } */
-.arrow1_list{
+.arrow1_list,.arrow2_list,.arrow3_list,.arrow4_list,.arrow5_list,.arrow6_list,.arrow7_list,.arrow8_list,.arrow9_list,.arrow10_list,.arrow11_list,.arrow12_list{
     /* display: none; */
     /* transform: scaleY(0); */
     /* height: 0px; */
@@ -64,7 +66,8 @@
     
     
 }
-.arrow1_list.expand{
+
+.arrow1_list.expand,.arrow2_list.expand,.arrow3_list.expand,.arrow4_list.expand,.arrow5_list.expand,.arrow6_list.expand,.arrow7_list.expand,.arrow8_list.expand,.arrow9_list.expand,.arrow10_list.expand,.arrow11_list.expand,.arrow12_list.expand{
     display: block;
     /* transform: scaleY(1); */
     /* height: 100px; */
@@ -87,6 +90,7 @@
 }
 .sidebar_subnav > li:hover{
     background-color: #f8f9fa;
+    
 }
 
 
